@@ -1,0 +1,13 @@
+[package]
+name = "way-cooler-bg"
+version = "0.1.0"
+authors = ["Timidger <APragmaticPlace@gmail.com>"]
+
+[dependencies]
+wayland-sys = { version = "^0.6.0", features = ["client"] }
+wayland-client = { version = "^0.6.0" }
+byteorder = ">= 0.3, < 0.6"
+tempfile = "2.1"
+cairo-rs = "^0.1.0"
+glib = "*"
+gdk-pixbuf = "0.1.0"
